@@ -11,7 +11,7 @@ const opel = {
 console.log("Golf color:", golf.color);
 console.log("Opel color:", opel.color);
 
-const redColor = golf.color;
+let redColor = golf.color;
 golf.color = opel.color;
 opel.color = redColor;
 
