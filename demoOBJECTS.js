@@ -11,9 +11,9 @@ const opel = {
 console.log("Golf color:", golf.color);
 console.log("Opel color:", opel.color);
 
-let redColor = golf.color;
+let TempColor = golf.color;
 golf.color = opel.color;
-opel.color = redColor;
+opel.color = TempColor;
 
 console.log("Colors Switched");
 console.log("Golf now is:", golf.color);
